@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+    
+.header{
+    width:1200px;
+    margin:0 auto;
+    border-bottom:2px solid #000000;
+    font-family:'Roboto', sans-serif;
+    font-size:80px;
+    text-align: left;
+    padding:47px 0 17px;
+}
+
+.photo {
+    width:1200px;
+    margin:0 auto;
+    padding:48px 0;
+}
+.title{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 32px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #000;
+}
+.title span{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #A00404;
+    padding: 0 0 15px 16px;
+}
+.content{
+    display:block;
+    width: 1200px;
+    margin: 0 auto;
+    padding:16px 0 48px; 
+    font-family: 'Noto Sans TC', sans-serif;  
+}
+
+.content h3{
+    font-size: 24px;
+    line-height:36px;
+    padding: 0 0 24px;
+}
+
+.content p{
+    font-size: 24px;
+    line-height:36px;
+    padding: 0 0 24px;
+}
+
+.content2{
+    background-color:#415165;
+    padding:24px 0 36px;
+}
+.content2 .skillTitle{
+    width: 996px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 32px;
+    color:white;
+    text-align: center;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.content2 span{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    padding: 0 0 15px 16px;
+}
+.content2 ul{
+    display: table;
+    margin: 40px auto 0;
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight:lighter;
+    color:white;
+    line-height:44px;
+    text-indent:24px;
+    border-left: 1px solid #96A9C4;
+}
+.workTitle{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 32px;
+    padding: 72px 0 8px;
+    border-bottom: 1px solid #000;
+}
+.workTitle span{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:#A00404;
+    padding: 0 0 15px 16px;
+}
+.workContent{
+    display:block;
+    width: 1200px;
+    margin: 16px auto 72px;
+    padding: 0 0 0px 24px; 
+    font-family: 'Noto Sans TC', sans-serif;
+    border-left: 1px solid #96A9C4; 
+}
+.workContent h3{
+    font-size: 24px;
+    padding:24px 0 0;
+}
+.workContent h4{
+    font-size: 24px;
+    line-height:36px;
+}
+.workContent p{
+    width: 642px;
+    font-size: 20px;
+    line-height:30px;   
+}
+.workContent img{
+    padding: 8px 0;
+}
+.footerContent{
+    width: 1200px;
+    margin: 32px auto 0;
+}
+.footerContent p{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight:lighter;
+    color:white;
+    text-align: center;
+    padding: 0 0 16px;
+}
+.footerContent .footerImg{
+    text-align: center;
+}
+.footerContent .footerImg img{
+    padding: 0 12px;
+}
+
