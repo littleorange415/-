@@ -1,0 +1,216 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container h1{
+    font-family:'Roboto', sans-serif;
+    border-bottom:2px solid #000000;
+    font-size:80px;
+    padding: 47px 0 17px 0;
+}
+
+.container img{
+    padding:48px 0;
+}
+
+.container h2{
+    font-size: 32px;
+    margin:0 0 16px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #000;
+}
+
+.container h2 span{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #A00404;
+    padding: 0 0 15px 16px;
+}
+
+.container ul{
+    padding: 0 0 24px 0;
+}
+
+.container li{
+    font-size: 24px;
+    line-height:36px;
+}
+
+.profile{
+    margin: 0 0 48px 0;
+}
+
+.profile .edu li{
+    padding: 0 0 24px 0;
+}
+
+.containerFull{
+    background-color:#415165;
+    padding:24px 0 36px;
+}
+
+.containerMd{
+    max-width: 996px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.containerMd h2{
+    font-size: 32px;
+    color:white;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.containerMd h2 span{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    padding: 0 0 15px 16px;
+}
+
+.containerMd ul{
+    display: table;
+    margin: 40px auto 0;
+    text-align: left;
+}
+
+.containerMd ul li{
+    padding: 0 0 16px 0;
+    font-size: 24px;
+    font-family:'Roboto', sans-serif;
+    font-weight:lighter;
+    color:white;
+    line-height: 36px;
+    text-indent:24px;
+    border-left: 1px solid #96A9C4;
+}
+
+.workExperience .icon{
+    padding: 8px 0;
+}
+.workExperience p{
+    width: 642px;
+    font-size: 20px;
+    line-height:30px;
+}
+
+.container .workExperience{
+    padding: 72px 0;
+}
+.container .workExperience ul{
+    padding: 0 0 0 24px;
+    border-left: 1px solid #96A9C4; 
+}
+
+.workExperience li{
+    padding: 0 0 24px 0;
+}
+
+.workExperience .bottom{
+    padding:0;
+}
+
+.container .footer{
+    text-align: center;
+}
+.containerFull .container{
+    margin: 0 auto;
+}
+.container .footer h2{
+    font-size: 32px;
+    color: white;
+    margin:0 0 32px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid white;
+}
+
+.container .footer h2 span{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 0 0 15px 16px;
+}
+
+.footer p{
+    font-family:'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight:lighter;
+    color:white;
+    text-align: center;
+    padding: 0 0 16px;
+}
+
+.footer a{
+    color: #FFFFFF;
+}
+
+.footer img{
+    padding: 16px 12px 0 0;
+}
